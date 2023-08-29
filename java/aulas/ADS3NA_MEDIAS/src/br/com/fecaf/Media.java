@@ -8,6 +8,14 @@ public class Media {
 	float nota4;
 	float media;
 	
-	media = (nota1 + nota2 + nota3 + nota4) / 4	
+	media = (nota1 + nota2 + nota3 + nota4) / 4;	
 	
 }
+
+
+/*
+ * Operadores Lógicos
+ * AND  &&
+ * OR || (pipe)
+ * NOT !
+ */
