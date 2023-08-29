@@ -1,15 +1,26 @@
 package br.com.fecaf;
 
-public class Media {
+import java.util.*;
 
-	float nota1;
-	float nota2;
-	float nota3;
-	float nota4;
+public class Media {
+	
+	public static void main (String[]args) {
+	
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Digite a primeira nota: ");
+	float nota1 = scanner.nextFloat();
+	System.out.print("Digite a segunda nota: ");
+	float nota2 = scanner.nextFloat();
+	System.out.print("Digite a terceira nota: ");
+	float nota3 = scanner.nextFloat();
+	System.out.print("Digite a quarta nota: ");
+	float nota4 = scanner.nextFloat();
 	float media;
+	
 	
 	media = (nota1 + nota2 + nota3 + nota4) / 4;	
 	
+	}
 }
 
 
