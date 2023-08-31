@@ -10,6 +10,9 @@ def descontoVA(sal_total):
 def descontoTotal(inss, va, vt):
     return inss + va + vt
 
+def salarioLiquido(sal_total, inss, va, vt):
+    return sal_total - descontoTotal(inss, va, vt)
+
 salario_bruto = float(print('Digite o salario bruto: R$'))
 
 inss = descontoINSS(salario_bruto)
@@ -20,12 +23,5 @@ print(f'''
 INSS: R$ {inss}
 VT: R$ {vt}
 VA: R$ {va}
+Salario Líquido: R$ {salarioLiquido(sal_total, inss, va, vt)}
 ''')
-
-salario_liquido = salario_bruto - descontoTotal(inss, va, vt)
-
-print(f'Salario líquido R${salario_liquido}')
-
-total_desconto = descontoTotal(inss, va, vt)
-
-print(f1)
