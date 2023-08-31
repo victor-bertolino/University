@@ -13,7 +13,7 @@ def descontoTotal(inss, va, vt):
 def salarioLiquido(sal_total, inss, va, vt):
     return sal_total - descontoTotal(inss, va, vt)
 
-salario_bruto = float(print('Digite o salario bruto: R$'))
+salario_bruto = float(print("Digite o salario bruto: R$"))
 
 inss = descontoINSS(salario_bruto)
 vt = descontoVT(salario_bruto)
