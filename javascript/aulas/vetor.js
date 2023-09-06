@@ -1,3 +1,11 @@
-    var vetor = [2, 4, 10, 5, 15, 3]
+    const vetor = [];
+    let i;
+    
+    for (i=0;i<=5;i++){
+    console.log("Digite o " + i+1 + "° número: ")
 
-    console.log(vetor[3])
+    }
+
+    for (i = 0; i <= 5; i++) {
+        console.log(vetor[i]);
+    }
